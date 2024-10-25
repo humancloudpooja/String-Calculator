@@ -21,7 +21,14 @@ public class Calculator {
     public static String[] splitNumbers(String text)
     {
 
-           return text.split(",");
+        if(text.contains("\n"))
+        {
+            return text.split("\n");
+        }
+        else {
+            return text.split(",");
+        }
+          // return text.split(",");
     }
 
     public static boolean containsNegative(String arr[])
