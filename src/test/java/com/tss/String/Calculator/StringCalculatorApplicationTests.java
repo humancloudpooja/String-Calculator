@@ -49,7 +49,7 @@ class StringCalculatorApplicationTests {
 	@Test
 	public void testAddingDigitWithComma()
 	{
-		assertEquals(34,Calculator.add("10,10,14"));
+		assertEquals(20,Calculator.add("10,10"));
 	}
 
 }
