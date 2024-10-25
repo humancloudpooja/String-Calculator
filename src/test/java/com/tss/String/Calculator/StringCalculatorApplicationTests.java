@@ -39,4 +39,11 @@ class StringCalculatorApplicationTests {
 			assertEquals(e.getMessage(),"Can Not Add Negative Number");
 		}
 	}
+
+	@Test
+	public void testStringWithNewLines()
+	{
+		assertEquals(14,Calculator.add("\n,1,4,9"));
+	}
+
 }
