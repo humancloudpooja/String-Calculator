@@ -19,4 +19,10 @@ class StringCalculatorApplicationTests {
 	{
 		assertEquals(1,Calculator.add("1"));
 	}
+
+	@Test
+	public void testTwoNumber()
+	{
+		assertEquals(4,Calculator.add("1,3"));
+	}
 }
